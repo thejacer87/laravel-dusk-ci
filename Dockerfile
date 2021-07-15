@@ -80,7 +80,7 @@ RUN apt-get update && apt-get install -yq --fix-missing \
     php-sass \
     php-lua \
     php-geos \
-    php-xdebug php-imagick imagemagick nginx
+    php-xdebug php7.4-imagick imagemagick nginx
 
 RUN update-alternatives --set php /usr/bin/php7.4
 RUN update-alternatives --set phar /usr/bin/phar7.4
